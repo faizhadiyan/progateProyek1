@@ -100,15 +100,32 @@ body main {
     width: 100%;
 }
 
-body main .whoarewe{
+.container {
+    display: block;
+}
+
+.reveal1 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.whoarewe{
     display: flex;
 }
 
-body main .whoarewe img {
+.whoarewe-pic {
     width: 690px;
     height: 460px;
-    left: 80px;
-    top: 800px;
+    margin-top: 80px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.whoarewe-pic img {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 body main .whoarewe .mainborder1 {
@@ -144,32 +161,202 @@ body main .whoarewe .whoarewe1 p {
 }
 
 
+.productshowcase1 {
+    width: 333px;
+    height: 503px;
+    margin-top: 110px;
+    margin-left: 250px;
+    position: relative;
+}
+
+.productshowcase1 h3{
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 48px;
+    align-items: center;
+    display: flex;
+    width: 430px;
+    height: 57.6px;
+    color: #0F8B8D;
+}
+
+.productshowcase1 .see-coffee-tea{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-decoration: none;
+    color: #F9FBFE;
+}
+
+.productshowcase1 .mainborder2 {
+    width: 399px;
+    height: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #EC9A29;
+}
+
+
+.productshowcase1 p{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 24px;
+    width: 425px;
+    height: 28.8px;
+}
+
+.productshowcase1 a {
+    position: absolute;
+    width: 335px;
+    height: 70px;
+    /* left: 250px; */
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A8201A;
+    border-radius: 55px;
+}
+
 body main .productshowcase{
     display: flex;
 }
 
-body main .productshowcase img {
-    width: 335px;
-    height: 503px;
-    left: 848px;
-    top: 1260px;
+.productshowcase-pic{
+    margin-top: 121px;
+    margin-left: 215px;
 }
 
+body main .productshowcase-pic img {
+    width: 335px;
+    height: 335px;
+    border-radius: 10px;
+}
+/* 
 body main .hangoutwithus{
     display: flex;
+    position: absolute;
+    width: 453px;
+    height: 453px;
+    left: 253px;
+    margin-top: -50px;
 }
+
+.hangoutwithus1 h3 {
+    position: absolute;
+    width: 382px;
+    height: 58px;
+    left: 600px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0F8B8D;
+}
+
+.hangoutwithus1 p {
+    position: absolute;
+    width: 398px;
+    height: 87px;
+    left: 547px;
+    top: 175px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #143642;
+}
+
 
 body main .hangoutwithus img {
     width: 807px;
     height: 453px;
     left: 80px;
     top: 1795px;
+} */
+
+.main-icon-3 {
+    position: absolute;
+    width: 453px;
+    height: 453px;
+    left: 253px;
+    margin-top: -50px;
+}
+
+.main-icon-3 h {
+    position: absolute;
+    width: 382px;
+    height: 58px;
+    left: 545px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0F8B8D;
+}
+
+.mainborder-3 {
+    position: absolute;
+    width: 381px;
+    height: 5px;
+    left: 547px;
+    top: 140px;
+    background: #EC9A29;
+}
+
+.Find-our-cafes {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    
+    line-height: 29px;
+    
+    text-align: center;
+    text-decoration: none;
+    color: #F9FBFE;
+}
+
+.main-icon-3 p {
+    position: absolute;
+    width: 398px;
+    height: 87px;
+    left: 547px;
+    top: 175px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #143642;
+}
+
+.main-icon-3 a {
+    position: absolute;
+    width: 335px;
+    height: 70px;
+    left: 547px;
+    top: 310px;
+    background: #A8201A;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body main .findus{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 6   00px;
 }
 
 body main .findus .findus1{
