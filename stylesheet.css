@@ -111,6 +111,39 @@ body main .whoarewe img {
     top: 800px;
 }
 
+body main .whoarewe .mainborder1 {
+    position: absolute;
+    width: 278px;
+    height: 5px;
+    left: 700px;
+    top: 150px;
+    background: #EC9A29;
+}
+
+body main .whoarewe .whoarewe1 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 700px;
+    width: 452px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body main .whoarewe .whoarewe1 h3{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Lato';
+    color: #0F8B8D;
+}
+
+body main .whoarewe .whoarewe1 p {
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+
 body main .productshowcase{
     display: flex;
 }
