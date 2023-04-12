@@ -20,14 +20,47 @@ body header {
 body header .header-wrap {
     display: flex;
     flex-direction: row;
-    column-gap: 50px;
+    column-gap: 200px;
     padding:15px;
+    padding-top: 45px;
     align-items: center;
+    justify-content: space-around;
 }
 
-body header .titel {
-    padding-top: 140px;
+body header .titel h1{
+    /* padding-top: 140px;
     text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 84px;
+    color:white; */
+    position: absolute;
+    width: 487px;
+    height: 168px;
+    left: 400px;
+    top: 239px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 84px;
+    text-align: center;
+    color: white;
+}
+
+body header .titel h2{
+    position: absolute;
+    width: 499px;
+    height: 43px;
+    left: 400px;
+    top: 430px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: white;
 }
 
 body header .header-wrap nav {
@@ -39,8 +72,14 @@ body header .header-wrap nav ul {
     color: white;
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
+    column-gap: 40px;
     justify-content: space-between;
+}
+
+body header .header-wrap nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 
 body main {
