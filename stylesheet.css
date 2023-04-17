@@ -355,14 +355,49 @@ body main .hangoutwithus img {
 body main .findus{
     display: flex;
     flex-direction: column;
+    margin-top: 473px;
+    /* width: 900px;
+    height: 58px;
+    left: 200px;
+    margin-top: 600px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
     text-align: center;
-    margin-top: 6   00px;
+    color: #0F8B8D;  */
 }
 
-body main .findus .findus1{
+.findush3-1 {
+    height: 58px;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    justify-content: center;
+    color: #0F8B8D;
+}
+
+.aromabumi {
+    cursor: pointer;
+    color: #EC9A29;
+}
+
+
+.findus1{
     display: flex;
     flex-wrap: wrap;
     column-gap: 20px;
+    margin-left: 120px;
+    width: 80%;
+    row-gap: 50px;
+    text-align: center; 
+    justify-content: center;   
 }
 
 body main .findus .findus1 img{
