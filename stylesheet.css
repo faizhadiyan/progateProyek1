@@ -28,13 +28,6 @@ body header .header-wrap {
 }
 
 body header .titel h1{
-    /* padding-top: 140px;
-    text-align: center;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 65px;
-    line-height: 84px;
-    color:white; */
     position: absolute;
     width: 487px;
     height: 168px;
@@ -104,7 +97,15 @@ body main {
     display: block;
 }
 
-.reveal1 {
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
     transform: translateY(0);
     opacity: 1;
 }
@@ -235,50 +236,6 @@ body main .productshowcase-pic img {
     height: 335px;
     border-radius: 10px;
 }
-/* 
-body main .hangoutwithus{
-    display: flex;
-    position: absolute;
-    width: 453px;
-    height: 453px;
-    left: 253px;
-    margin-top: -50px;
-}
-
-.hangoutwithus1 h3 {
-    position: absolute;
-    width: 382px;
-    height: 58px;
-    left: 600px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 58px;
-    color: #0F8B8D;
-}
-
-.hangoutwithus1 p {
-    position: absolute;
-    width: 398px;
-    height: 87px;
-    left: 547px;
-    top: 175px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: #143642;
-}
-
-
-body main .hangoutwithus img {
-    width: 807px;
-    height: 453px;
-    left: 80px;
-    top: 1795px;
-} */
 
 .main-icon-3 {
     position: absolute;
@@ -356,17 +313,6 @@ body main .findus{
     display: flex;
     flex-direction: column;
     margin-top: 473px;
-    /* width: 900px;
-    height: 58px;
-    left: 200px;
-    margin-top: 600px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 58px;
-    text-align: center;
-    color: #0F8B8D;  */
 }
 
 .findush3-1 {
